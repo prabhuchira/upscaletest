@@ -3,13 +3,7 @@ html {
   }
 
 
-/*
-*
-* ==========================================
-* CUSTOM UTIL CLASSES
-* ==========================================
-*
-*/
+/* 
 .navbar {
     transition: all 0.4s;
 }
@@ -29,7 +23,7 @@ html {
 }
 
 
-/* Change navbar styling on scroll */
+
 .navbar.active {
     background: #fff;
     box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
@@ -50,7 +44,6 @@ html {
 }
 
 
-/* Change navbar styling on small viewports */
 @media (max-width: 991.98px) {
     .navbar {
         background: #fff;
@@ -63,16 +56,9 @@ html {
 
 
 
-/*
-*
-* ==========================================
-* FOR DEMO PURPOSES
-* ==========================================
-*
-*/
 .text-small {
     font-size: 0.9rem !important;
-}
+} */
 
 
 body {
@@ -111,3 +97,17 @@ body {
     justify-content: flex-end;
 }
 
+
+.hamburger-style{
+    font-size: 25px;
+    color: #0083fe;
+}
+
+.custom-navbar{
+    height:150px;background-color: white; 
+}
+
+.add-custom-border-for-nav{
+    border-bottom: 1px solid #3ba0ff;
+    border-radius: 10px;
+}
