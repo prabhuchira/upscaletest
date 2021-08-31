@@ -1,6 +1,7 @@
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
   }
+  
 
 
 /* 
@@ -110,4 +111,77 @@ body {
 .add-custom-border-for-nav{
     border-bottom: 1px solid #3ba0ff;
     border-radius: 10px;
+}
+
+
+
+.custom-para{
+    color: #777777;
+    text-indent: 40px;
+    font-size:22px;
+    max-width: 600px;
+    font-family: "Sen",sans-serif;
+    text-align: justify;
+}
+
+.box{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.about-upscale{
+    width: 400px;
+}
+
+.contact{
+    color: #0083fe;
+    font-family: 'Sen';
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 22px;
+}
+
+
+.inputStyle{
+    width: 100%;
+    border: 1px solid #b9b9b9;
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
+.address-font{
+    color:#777777;font-size: 20px;
+}
+
+
+@media screen and (max-width:500px) {
+    .about-upscale{
+        width: 200px;
+    }
+
+    .custom-para{
+        color: #777777;
+        text-indent: 40px;
+        font-size:16px;
+        max-width: 600px;
+        font-family: "Sen",sans-serif;
+        text-align: justify;
+        margin:0px 20px;
+        
+    }
+
+    .about-upscale-logo{
+        display: none;
+    }
+    .address-font{
+        color:#777777;font-size: 16px;
+     
+    }
+    
+    .add-margin{
+        margin:0px 20px;
+    }
+    
 }

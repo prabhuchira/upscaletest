@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,108 +8,231 @@
     <title>Upscale Technologies</title>
     <!-- CSS only -->
 
+    <style>
+        html {
+    scroll-behavior:smooth !important;
+  }
+  
+    </style>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Scada&family=Sen&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
 
 
 
- 
+
 </head>
+
 <body>
-    <header class="header" >
-        <nav class="navbar navbar-expand-lg fixed-top py-3 custom-navbar" >
-            <div class="container" >
-                
+    <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top py-3 custom-navbar">
+            <div class="container">
+
 
                 <!-- <a href="#" class="navbar-brand text-uppercase font-weight-bold"><img src="assets/logo.PNG" style="max-width: 250px;"></a> -->
-                <img  class="navbar-brand text-uppercase font-weight-bold"  src="assets/logo.svg" width="200px" alt="logo" >
-              
+                <img class="navbar-brand text-uppercase font-weight-bold" src="assets/logo.svg" width="200px"
+                    alt="logo">
 
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                  <div class="offcanvas-header">
-                    <h5 id="offcanvasRightLabel"></h5>
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                  </div>
-                  <div class="offcanvas-body">
-                    
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasRightLabel"></h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+
                         <ul class="navbar-nav ml-auto" style="text-align: center;">
-                            <li class="nav-item active"><a href="#" class="nav-link add-custom-border-for-nav   font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
-                            <li class="nav-item"><a href="#" class="nav-link add-custom-border-for-nav  font-weight-bold">About</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link add-custom-border-for-nav font-weight-bold">Gallery</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link add-custom-border-for-nav font-weight-bold">Portfolio</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link add-custom-border-for-nav font-weight-bold">Contact</a></li>
+                            <li class="nav-item active"><a href="#"
+                                    class="nav-link add-custom-border-for-nav   font-weight-bold">Home <span
+                                        class="sr-only">(current)</span></a></li>
+                            <li class="nav-item"><a href="#about"
+                                    class="nav-link add-custom-border-for-nav  font-weight-bold">About</a></li>
+                            <li class="nav-item"><a href="#"
+                                    class="nav-link add-custom-border-for-nav font-weight-bold">Services</a></li>
+                            <li class="nav-item"><a href="#"
+                                    class="nav-link add-custom-border-for-nav font-weight-bold">Portfolio</a></li>
+                            <li class="nav-item"><a href="#contact"
+                                    class="nav-link add-custom-border-for-nav font-weight-bold">Contact</a></li>
                         </ul>
-                  
-                  </div>
+
+                    </div>
                 </div>
 
                 <!-- <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"></button> -->
                 <div class="d-lg-none">
-                <button class="btn btn-default"   type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars hamburger-style"></i></button>
-            </div>
-                
-                <div id="navbarSupportedContent" class="d-none d-lg-block"  >
+                    <button class="btn btn-default" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
+                        class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars hamburger-style"></i></button>
+                </div>
+
+                <div id="navbarSupportedContent" class="d-none d-lg-block">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a href="#" class="nav-link  font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
-                        <li class="nav-item"><a href="#" class="nav-link  font-weight-bold">About</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link  font-weight-bold">Gallery</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link  font-weight-bold">Home <span
+                                    class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link  font-weight-bold">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link  font-weight-bold">Services</a></li>
                         <li class="nav-item"><a href="#" class="nav-link  font-weight-bold">Portfolio</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link  font-weight-bold">Contact</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link  font-weight-bold">Contact</a></li>
                     </ul>
                 </div>
-                
+
             </div>
         </nav>
     </header>
 
-    <br/>
+    <br />
 
 
 
-<div style="height: 125px;" class="d-block d-md-none d-lg-none"></div>
-<div style="height: 200px;" class="d-block d-none d-sm-none d-md-block d-lg-block"></div>
-<div class="container">
+    <div style="height: 125px;" class="d-block d-md-none d-lg-none"></div>
+    <div style="height: 200px;" class="d-block d-none d-sm-none d-md-block d-lg-block"></div>
+    <div class="container">
 
-    <div class="row">
-        <div class="col-lg-6 text-center d-lg-none d-md-block d-sm-block" style="display: flex;justify-content: center;">
-            <img src="assets/devpicture.svg" width="350px" />
-        </div>
-        <div class="col-lg-6" style="display: flex;flex-direction: column;justify-content: center;">
-           <div style="font-family: 'Sen',sans-serif;color: #858585;margin:30px" >
-                <h1 >Making Innovation A Part Of Your Business</h1>
-                <br/>
-                <p style="color:#b0b0b0">Upscale Software, a young and vibrant software company established in 2018,is dedicated to make a gradual, but big impact in the industry through it’s unique ideology. </p>
-                <div class="readMoreContainer">
-                    <button class="btn btn-primary">Read More</button>
+        <div class="row">
+            <div class="col-lg-6 text-center d-lg-none d-md-block d-sm-block"
+                style="display: flex;justify-content: center;">
+                <img src="assets/devpicture.svg" width="350px" />
+            </div>
+            <div class="col-lg-6" style="display: flex;flex-direction: column;justify-content: center;">
+                <div style="font-family: 'Sen',sans-serif;color: #858585;margin:30px">
+                    <h1>Making Innovation A Part Of Your Business</h1>
+                    <br />
+                    <p style="color:#b0b0b0">Upscale Software, a young and vibrant software company established in
+                        2018,is dedicated to make a gradual, but big impact in the industry through it’s unique
+                        ideology. </p>
+                    <div class="readMoreContainer">
+                        <button class="btn btn-primary">Read More</button>
+                    </div>
                 </div>
-           </div>
+            </div>
+            <div class="col-lg-6 text-center d-none d-lg-block " style="display: flex;justify-content: flex-end;">
+                <img src="assets/devpicture.svg" width="450px" />
+            </div>
         </div>
-        <div class="col-lg-6 text-center d-none d-lg-block " style="display: flex;justify-content: flex-end;">
-            <img src="assets/devpicture.svg" width="450px" />
+
+
+
+    </div>
+
+    <div style="margin-top:30px">
+        <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 290" version="1.1"
+            xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(0, 105, 203, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(4, 134, 255, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,0L48,29C96,58,192,116,288,145C384,174,480,174,576,149.8C672,126,768,77,864,82.2C960,87,1056,145,1152,149.8C1248,155,1344,106,1440,106.3C1536,106,1632,155,1728,169.2C1824,184,1920,164,2016,130.5C2112,97,2208,48,2304,29C2400,10,2496,19,2592,58C2688,97,2784,164,2880,188.5C2976,213,3072,193,3168,169.2C3264,145,3360,116,3456,96.7C3552,77,3648,68,3744,87C3840,106,3936,155,4032,169.2C4128,184,4224,164,4320,169.2C4416,174,4512,203,4608,178.8C4704,155,4800,77,4896,72.5C4992,68,5088,135,5184,178.8C5280,222,5376,242,5472,236.8C5568,232,5664,203,5760,203C5856,203,5952,232,6048,246.5C6144,261,6240,261,6336,222.3C6432,184,6528,106,6624,67.7C6720,29,6816,29,6864,29L6912,29L6912,290L6864,290C6816,290,6720,290,6624,290C6528,290,6432,290,6336,290C6240,290,6144,290,6048,290C5952,290,5856,290,5760,290C5664,290,5568,290,5472,290C5376,290,5280,290,5184,290C5088,290,4992,290,4896,290C4800,290,4704,290,4608,290C4512,290,4416,290,4320,290C4224,290,4128,290,4032,290C3936,290,3840,290,3744,290C3648,290,3552,290,3456,290C3360,290,3264,290,3168,290C3072,290,2976,290,2880,290C2784,290,2688,290,2592,290C2496,290,2400,290,2304,290C2208,290,2112,290,2016,290C1920,290,1824,290,1728,290C1632,290,1536,290,1440,290C1344,290,1248,290,1152,290C1056,290,960,290,864,290C768,290,672,290,576,290C480,290,384,290,288,290C192,290,96,290,48,290L0,290Z">
+            </path>
+        </svg>
+    </div>
+
+    <div style="height: 100px;"></div>
+
+
+    <div class="container" id="about">
+
+        <div class="row">
+            <div class="col-lg-6 box " style="text-align: center;">
+                <div>
+                    <img src="assets/Vector.svg" class="about-upscale" alt="vector">
+                </div>
+            </div>
+            <div class="col-lg-6">
+
+                <div style="text-align: center;">
+                    <img class="navbar-brand text-uppercase font-weight-bold about-upscale-logo" src="assets/logo.svg"
+                        width="200px" alt="logo">
+                </div>
+
+                <br>
+                <br>
+                <div class="custom-para">
+
+                    Upscale Software, a young and vibrant software company established in 2018, is dedicated to make a
+                    gradual, but big impact in the industry through it’s unique ideology. And what makes us unique? Our
+                    commitment. We are committed to make our client’s success come before our’s. We are committed to see
+                    our client’s are happy before we are.
+                </div>
+                <br>
+
+                <div class="custom-para">
+                    We take pride in our ideology and we strive to keep it unchanged.
+                </div>
+                <br>
+                <div class="custom-para">
+                    We are always listening to our clients. You can be assured, whatever values your business, becomes
+                    our first priority. We are futuristic in our approach. We’re always keeping an eye on the latest
+                    technologies so that benefits our customers. As our tag line goes – Where Today Meets Tomorrow.
+                </div>
+
+            </div>
         </div>
     </div>
 
-    
-    
-</div>
 
-<div style="margin-top:30px">
-    <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 290" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(0, 105, 203, 1)" offset="0%"></stop><stop stop-color="rgba(4, 134, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,0L48,29C96,58,192,116,288,145C384,174,480,174,576,149.8C672,126,768,77,864,82.2C960,87,1056,145,1152,149.8C1248,155,1344,106,1440,106.3C1536,106,1632,155,1728,169.2C1824,184,1920,164,2016,130.5C2112,97,2208,48,2304,29C2400,10,2496,19,2592,58C2688,97,2784,164,2880,188.5C2976,213,3072,193,3168,169.2C3264,145,3360,116,3456,96.7C3552,77,3648,68,3744,87C3840,106,3936,155,4032,169.2C4128,184,4224,164,4320,169.2C4416,174,4512,203,4608,178.8C4704,155,4800,77,4896,72.5C4992,68,5088,135,5184,178.8C5280,222,5376,242,5472,236.8C5568,232,5664,203,5760,203C5856,203,5952,232,6048,246.5C6144,261,6240,261,6336,222.3C6432,184,6528,106,6624,67.7C6720,29,6816,29,6864,29L6912,29L6912,290L6864,290C6816,290,6720,290,6624,290C6528,290,6432,290,6336,290C6240,290,6144,290,6048,290C5952,290,5856,290,5760,290C5664,290,5568,290,5472,290C5376,290,5280,290,5184,290C5088,290,4992,290,4896,290C4800,290,4704,290,4608,290C4512,290,4416,290,4320,290C4224,290,4128,290,4032,290C3936,290,3840,290,3744,290C3648,290,3552,290,3456,290C3360,290,3264,290,3168,290C3072,290,2976,290,2880,290C2784,290,2688,290,2592,290C2496,290,2400,290,2304,290C2208,290,2112,290,2016,290C1920,290,1824,290,1728,290C1632,290,1536,290,1440,290C1344,290,1248,290,1152,290C1056,290,960,290,864,290C768,290,672,290,576,290C480,290,384,290,288,290C192,290,96,290,48,290L0,290Z"></path></svg>
-</div>
 
-<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <div style="height: 100px;"></div>
+    <hr>
+    <div style="height: 50px;"></div>
+    <div class="container" id="contact">
+        <div class="row  add-margin">
+        <div class="col-lg-6" >
+            
+            <div>
+                <div style="height:3px;background-color:#0083fe;width: 100px;"></div>
+            <p class="contact">CONTACT</p>
+            </div>
+
+
+            
+          
+
+            <p class="address-font">
+                Level 6, N Heights,<br>
+                Plot No 38, Phase 2,<br>
+                Hitec City, Hyderabad - 500081
+                Tel: 98660-11020<br>
+                info@upscalesoft.in
+                
+
+            </p>
+        </div>
+
+        <div class="col-lg-6">
+            <input class="inputStyle" placeholder="Name" />
+            <input class="inputStyle" placeholder="Email" />
+            <input class="inputStyle" placeholder="Subject" />
+            <textarea class="inputStyle" placeholder="Message" rows="5"></textarea>
+            <br>
+            <div style="text-align: right;">
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div style="height: 50px;"></div>
+
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
     <path fill="#0099ff" fill-opacity="1" d="M0,160L1440,224L1440,0L0,0Z"></path>
   </svg> -->
-<!-- <div>
+    <!-- <div>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 </div> -->
 
 
-<!-- <div class="container">
+    <!-- <div class="container">
     <div class="pt-5 ">
         <header class="py-5 mt-5">
             <h1 class="display-4">Transparent Navbar</h1>
@@ -129,23 +253,26 @@
     </div>
 </div> -->
 
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
-      <script>
-          
+    <script>
+
         $(function () {
-    $(window).on('scroll', function () {
-        if ( $(window).scrollTop() > 15  ) {
-            $('.navbar').addClass('addBorderShadow');
-        } else {
-            $('.navbar').removeClass('addBorderShadow');
-        }
-    });
-});
-  
-      </script>
-     
+            $(window).on('scroll', function () {
+                if ($(window).scrollTop() > 15) {
+                    $('.navbar').addClass('addBorderShadow');
+                } else {
+                    $('.navbar').removeClass('addBorderShadow');
+                }
+            });
+        });
+
+    </script>
+
 </body>
+
 </html>
